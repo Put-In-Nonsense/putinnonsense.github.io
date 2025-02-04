@@ -1,0 +1,175 @@
+a {
+  display: inline-block;
+  padding: 17px;  
+} 
+a:visited,
+a:link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover{  
+  background-color: rgba(0, 0, 0, 0.178);
+  border-radius: 15px;
+}
+
+nav {
+  background-color: rgb(0, 55, 128);
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 25px;
+  padding: 0;
+  margin-top: 15px;
+  border: solid rgb(60, 137, 170);
+  z-index: 3;
+  border-radius: 15px;
+}
+
+.passtop {
+  position: relative;
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 25px;
+  z-index: 2;
+  color: white;
+  font-size: 38px;
+  font-weight: bolder;
+}
+
+.topper {
+  position: absolute;
+  background-color: rgb(49, 49, 49);
+  width: 100vw;
+  left: 0;
+  top: 0;
+  height: 90px;
+  z-index: 1;
+  padding: 0;
+  margin-top: 0;
+}
+
+body {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  margin: 0px;
+  height: 0;
+  padding: 0;
+  background-color: rgb(80, 80, 80);
+}
+
+#container {
+  max-width: 600px;
+  margin: auto;
+}
+
+#first_estimate {
+  bottom: 5px;
+  position: relative;
+}
+
+#password_input_box {
+  height: 40px;
+  font-size: x-large;
+  font-weight: bold;
+  background: white;
+  border: none;
+  width: 570px;
+  text-align: center;
+  margin-bottom: 7px;
+  border-radius: 25px;
+}
+
+.tip_top {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.password_requirements_box {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  padding-top: 13px;
+  padding-bottom: 5px;
+  clear: both;
+  background-color: black;
+  color: white;
+  height: 20px;
+  border-radius: 0px 0px 15px 15px;
+}
+
+input {
+  padding: 2px;
+  clear: both;
+}
+
+#complexity {
+  font-weight: bold;
+  padding: 10px;
+  cursor: default;
+  color: white;
+  background-color: rgb(133, 133, 133);
+  text-align: center;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.char_type {
+  float: right;
+  margin-right: 10px;
+  width: 90px;
+  font-size: 12px;
+  color: #ff0000;
+}
+
+.char_type_valid {
+  color: #2cb117;
+}
+
+#char_count {
+  width: 170px;
+  margin-left: 25px;
+  font-weight: bold;
+  bottom: 2px;
+  position: relative;
+  font-size: 14px;
+}
+.estimate {
+  width: 49%;
+  float: left;
+  border: solid 1px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.result {
+  margin-top: 100px;
+  font-size: 15px;
+  text-align: center;
+}
+
+footer {
+  background-color: rgb(49, 49, 49);
+  position: absolute;
+  text-align: center;
+  font-size: smaller;
+  bottom: 0;
+  width: 100vw;
+  left: 0;
+  color: white;
+}
+
+input::placeholder {
+  color: lightgray;
+}
+
+.light_mode {
+  position: absolute;
+  right: 20px;
+  top: 100px;
+}
+.light_mode_txt {
+  position: absolute;
+  right: 40px;
+  top: 100px;
+}

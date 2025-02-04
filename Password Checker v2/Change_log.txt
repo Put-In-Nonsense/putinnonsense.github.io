@@ -1,0 +1,29 @@
+Change Log - Ashton Chronister
+-------------------------------------------------------
+
+
+Added:
+-Head and footer colors
+-More color types based on strength
+-Instant instead of 0 seconds
+-Comments
+-curvy boxes
+-"Enter a pass" under crack time
+-password recommended requirements are now default red
+
+Fixed:
+-Broken tip rotation system
+-Trillion trillion trillion years
+
+Changed:
+-Used Prettier extention to format everything, and had to fix some of its formating cause it sucked
+-Changed some bad id and class names to sensable ones
+-Changed the metaphors, and put them after the review
+-Spaceing of stuff
+-moved style stuff to css
+-made darker
+
+Removed:
+-Removed a lot of unessesary code (duplicate or usless)
+-Removed usless css
+-

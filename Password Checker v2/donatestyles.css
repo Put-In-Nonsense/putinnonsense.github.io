@@ -1,0 +1,76 @@
+a {
+  display: inline-block;
+  padding: 17px;  
+} 
+a:visited,
+a:link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover{  
+  background-color: rgba(0, 0, 0, 0.178);
+  border-radius: 15px;
+}
+
+nav {
+  background-color: rgb(0, 55, 128);
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 25px;
+  padding: 0;
+  margin-top: 15px;
+  border: solid rgb(60, 137, 170);
+  z-index: 3;
+  border-radius: 15px;
+}
+
+.passtop {
+  position: relative;
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 25px;
+  z-index: 2;
+  color: white;
+  font-size: 38px;
+  font-weight: bolder;
+}
+
+.topper {
+  position: absolute;
+  background-color: rgb(49, 49, 49);
+  width: 100vw;
+  left: 0;
+  top: 0;
+  height: 90px;
+  z-index: 1;
+  padding: 0;
+  margin-top: 0;
+}
+
+body {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  margin: 0px;
+  height: 0;
+  padding: 0;
+  background-color: rgb(80, 80, 80);
+}
+
+footer {
+  background-color: rgb(49, 49, 49);
+  position: absolute;
+  text-align: center;
+  font-size: smaller;
+  bottom: 0;
+  width: 100vw;
+  left: 0;
+  color: white;
+}
+
+.venmolink {
+  position: absolute;
+  left: 700px;
+}
